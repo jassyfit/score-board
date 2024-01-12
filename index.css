@@ -1,0 +1,134 @@
+@font-face{
+    font-family: Timer;
+    src: url("digital-7.regular.ttf");
+
+}
+@font-face{
+    font-family: Mario;
+    src: url("SuperMario256.ttf");
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 0;
+    font-family: Mario, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    background-image: url(Space_Jam_Court.webp);
+    background-size: cover;
+}
+
+h3 {
+    margin:20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(60deg, #221a56, #9f3f5c) ;
+    color: #EEEEEE;
+    border-radius: 50px;
+    
+}
+
+.score {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Timer;
+    font-size: 90px;
+    color: #ee6f60;
+    background: #080021;
+    width:155px;
+    height:120px;
+    border-radius: 5px;       
+}
+
+.btn{
+    font-family: Timer;
+    font-size: 18px;
+    color: #EEEEEE;
+    border: 2px solid #7330a3;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    background: none;  
+    margin: auto;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width:155px;
+    height: 45px;
+    margin: 20px 0 20px 0;
+}
+
+.title{
+    margin:0 0 20px 0;
+}
+
+.foul{
+    display: flex;
+    flex-direction: column;    
+}
+
+.other{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #080021;
+    font-family: Timer;
+    width:60px;
+    height:60px;
+    margin:auto;
+    border-radius: 5px; 
+    color: #ee6f60;
+ 
+}
+
+.other:hover, .btn:hover{
+    box-shadow: 0 0 6px #7330a3;    
+}
+
+.foul-title{
+    margin:0 0 10px 0;
+    font-size: 20px;
+}
+
+.foul-btn{
+    margin: 10px;    
+}
+
+#new-game-btn{
+    font-size: 12px;
+        width: 60px;
+    height: 30px;
+}
+
+#start-btn, #stop-btn{
+    font-size: 12px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+
+#timer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background: #080021;
+    font-family: Timer;
+    margin: auto; 
+    border-radius: 5px; 
+    color: #ee6f60; 
+}
